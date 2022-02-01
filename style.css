@@ -155,7 +155,11 @@ body,html{
 .merch{
             display: flex;
          justify-content: space-around;
-         margin:2em 0;}
+         margin:2em 0;
+        }
+.col{
+  margin: 1em;
+}
 
 .mcol{
             width: 30%;
@@ -402,7 +406,7 @@ body,html{
 }
 .rev-column img{
   width: 100%;
-  border-radius: 20px 20px 0 0;
+  
 }
 
 .star-container{
@@ -500,15 +504,17 @@ cursor: pointer;
 
 .about-container p{
   text-align: justify;
-  text-indent: 4em;
+  text-indent: 2em;
   font-size: 1.5em;
   line-height: 2em;
+  padding:1em;
 }
 /*** ABOUT ***/
 @media only screen and (max-width: 950px) {
            .flex-box{
                        flex-direction: column;
                        text-align: center;
+                       width: 100%;
            }
            .column p{
                        margin: 0 auto;
@@ -524,6 +530,7 @@ cursor: pointer;
            .col{
             width: 100%; 
             padding:.5em 1em;
+            margin: 0;
            }
            
            .bg-right{
@@ -571,8 +578,10 @@ cursor: pointer;
                         width: 100%;
                         height: 100vh;
                        margin:0;
-                       
+                       border-radius: 0;
             }
+
+            
 
             .fw-flex{
                         flex-direction: column;
@@ -599,10 +608,28 @@ cursor: pointer;
             footer{
                         height: 180vh;
             }
-           }
+            .column{
+              width: 100%;
+              padding:0;
+            }
 
+            .column p{
+              font-size: 1em;
+            }
+
+            .container-banner img{
+                width:100%;
+           }
+           .about-container p{
+            
+            font-size: 1em;
+            line-height: 2em;
+           
+          }
+          }
            @media only screen and (max-width:420px) {
              .merchandise-banner h1{
                font-size: 2.5em;
              }
+             
            }
