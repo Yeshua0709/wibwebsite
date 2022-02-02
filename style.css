@@ -68,11 +68,33 @@ body,html{
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: 5em;
 }
-.column p{
-            font-family: sans-serif;
-            max-width: 50%;
-            font-size: 1.3em;
-            line-height: 2em;
+
+.title{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.text{
+  font-weight: 900;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.3em;
+  max-width: 70%;
+  line-height: 2em;
+
+}
+
+.section-title{
+  font-family: 'Righteous', cursive;
+}
+
+.text-font{
+  font-family: 'Prompt', sans-serif;
+  font-size:1.125rem;
+  text-align: justify;
+  line-height: 2em;;
+}
+.fw-col h3{
+  font-size:1.5em;
 }
 .bg-right{
             background-color: #012338;
@@ -593,7 +615,7 @@ cursor: pointer;
                         margin:0 auto;
             }
             .fw-col p{
-                        line-height: 1em;
+                        line-height: 1.5em;
                         
             }
 }
@@ -633,3 +655,35 @@ cursor: pointer;
              }
              
            }
+
+.b1{
+  background-image: url("b1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.b2{
+  background-image: url("b2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.b3{
+  background-image: url("b3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.b4{
+  background-image: url("b4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
