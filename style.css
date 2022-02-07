@@ -628,7 +628,7 @@ cursor: pointer;
                       font-size:4em;  
             }
             footer{
-                        height: 150vh;
+                        height: 180vh;
             }
             .column{
               width: 100%;
@@ -686,4 +686,8 @@ cursor: pointer;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+}
+
+.mv-col-left p{
+  text-align: right;
 }
