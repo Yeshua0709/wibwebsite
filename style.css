@@ -691,3 +691,11 @@ cursor: pointer;
 .mv-col-left p{
   text-align: right;
 }
+
+.about-container h3{
+margin: 0.5em;
+}
+
+.about-container iframe{
+padding:1em;
+}
